@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+
+}
+.clear-fix{
+    clear: both;
+}
+/* Starting home-nav section */
+#home {
+ background-image: url(images/drew-coffman-1872.jpg);
+ background-size: cover;   
+ background-position: center center;
+ height: 100vh;
+}
+.navbar{
+    /* padding: 15px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #30303080;
+    z-index: 99;
+}
+
+.navbar img{ 
+    width: 200px;
+    /* float: left;*/
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.navbar ul{
+    /* float: right; */
+    list-style: none;
+    display: inline-block;
+    vertical-align:middle;
+    padding-left: 500px;
+}
+.navbar ul li{
+display: inline-block;
+padding: 20px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.navbar ul a:hover{
+    color: rgb(224, 192, 107);
+}
+
+/* Starting home-caption section */
+
+#home .caption{
+    text-align: center;
+    color: white;
+    padding-top: 165px;
+    padding-left: 5%;
+}
+
+#home .caption h1{
+    font-family: 'Alegreya', serif;
+    font-size: 82px;
+    font-weight: lighter;
+    line-height:90px;
+}
+
+#home .caption p{
+    /* font-family: 'Alegreya', serif; */
+    font-size:22px;
+    line-height:50px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#home .caption button{
+    padding:16px 26px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#home .caption .btn1 {
+    background-color: rgb(142, 119, 84);
+    border: solid 2px transparent;
+    border-radius: 5%;
+    margin-left: 0px;
+
+}
+
+#home .caption .btn2 {
+    background-color:transparent;
+    border: solid 2px white;
+    border-radius: 5%;
+    margin-left: 30px;
+
+}
+
+#home .caption .btn1:hover, #home .caption .btn2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+} 
+
+/* Starting about section */
+
+#about {
+    margin: 80px 0px 80px 50px ;
+}
+
+#about .about-img {
+    width:45% ;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img{ width: 100%;}
+
+#about .about-info{
+    width: 45%;
+    /* float: left; */
+     padding-top: 20px;
+     display: inline-block;
+     vertical-align: middle;
+}
+
+#about .about-info h2{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height:44.16px;
+    margin:0px 0px 20px;
+    padding-left: 60px;
+}
+#about .about-info p{
+    font-size: 17px;
+    font-weight: lighter;
+    line-height:31.62px;
+    margin:0px 0px 25px;
+    padding-left: 60px;
+    padding-right: 0px;
+    color: rgb(116, 116, 126);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#about .icons{line-height: 60px;}
+
+#about .icons img{
+width: 7%;
+border: 1px solid rgba(143, 142, 142, 0.671);
+border-radius: 50%;
+margin-left: 90px;
+display: inline-block;
+vertical-align: middle;}
+
+#about .icons p{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    color:  rgb(116, 116, 126);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* Starting location section */
+
+#location {
+    padding:60px 60px;
+    vertical-align: top;
+    background-color: #F8F8F8;
+}
+
+#location .location-img {
+    width:45% ;
+    /* float: right; */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 650px;
+}
+
+img{ width: 100%;}
+
+ #location .loc-info{
+    width: 50%;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    right: 550px;
+}
+
+#location .loc-info h2{
+    font-size: 34px;
+    font-weight: lighter;
+    line-height:44.16px;
+    margin:0px 0px 20px;}
+
+#location .loc-info p{
+    font-size: 17px;
+    line-height:31.62px;
+    margin:0px 0px 25px;
+    color: rgb(116, 116, 126);
+    padding-right: 0px; 
+    font-family: 'Alegreya Sans', sans-serif;}  
+
+    /* Starting Baking section */
+
+    #Baking{    padding-top: 60px;}
+    #Baking .bak-info{
+    text-align: center;
+    margin:0px 0px 20px;
+    padding-left: 25px;
+}
+#Baking .bak-info h2{
+    font-size: 32px;
+    line-height:44.16px;
+    font-weight: lighter;
+    } 
+
+#Baking .bak-info p{
+    font-size: 17px;
+    line-height:31.62px;
+    color: rgb(116, 116, 126);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Alegreya Sans', sans-serif;}  
+
+    #Baking .bak-p1{
+        float: left;
+        width: 30%;
+        text-align: center;
+        margin-left: 3%;
+    }
+    #Baking .bak-p1 h3{
+        line-height: 50px;
+        font-size:25px;
+        color:#303030;
+        font-weight: lighter;
+    }
+
+    #Baking .bak-p1 p{
+        line-height: 32px;
+        font-size:17px;
+        color:rgb(104, 104, 104);
+        padding-right: 30px; 
+        font-family: 'Alegreya Sans', sans-serif;
+        margin-bottom: 90px;    }
+    
+    /* <!-- Starting contact section  */
+#Contact  {
+    margin:  60px 40px;
+background-color: #F8F8F8;}
+
+#Contact .contact-img {
+    margin-top: 80px;
+    width:45% ;
+    float: right;
+}
+
+img{ width: 100%;}
+
+ #Contact .contact-info{
+    width: 55%;
+    float: left;
+    padding-top: 100px;
+}
+
+#Contact .contact-info h2{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height:44.16px;
+    margin:0px 0px 20px;
+    padding-left: 25px;} 
+
+#Contact .contact-info p{
+    font-size: 17px;
+    line-height:31.62px;
+    margin:0px 0px 25px;
+    color: rgb(116, 116, 126);
+    padding-left: 25px;
+    padding-right: 70px;
+    font-family: 'Alegreya Sans', sans-serif;} 
+
+#Contact .icons{
+    line-height: 60px;
+}
+#Contact .icons img{
+width: 5%;
+background-color: #8E7754;
+border: 1px solid transparent;
+border-radius: 50%;
+margin-left: 30px;
+display: inline-block;
+vertical-align: middle;}
+
+#Contact .icons p{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 20px;
+    color:  rgb(116, 116, 126);
+    font-family: 'Alegreya Sans', sans-serif;}
+
+    /* starting footer section  */
+
+    #container {
+        background-color:#403D38;
+        font-size:16px;
+        padding:60px 50px ;
+    }
+    
+    #container .about-us , #container .why-us, #container .hours ,#container .details{
+        float: left;
+        width: 23%;
+        position: relative;
+    }
+
+    #container  h4{
+font-size: 18px;
+color: #fff;
+line-height:25px;
+padding-bottom: 20px;
+    }
+    #container .why-us h4{padding-left: 40px;}
+    #container .hours h4{padding-left: 60px;}
+
+    #container  p, li{
+        color:RGB(150, 150, 150);
+        line-height:29.76px;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    #container .why-us img{
+        width: 20px;
+    vertical-align: middle;}
+    #container  .why-us li{
+        list-style: none;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #container .hours{margin-right: 90px;}
+
+    #container .hours img{
+        width: 20px;
+    vertical-align: middle;}
+
+    #container  .hours li{
+        list-style: none;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    #container .details{
+        background-image: url('images/contact-details-map.png');
+        background-size: 80%;
+        background-position: center center ;
+        background-repeat: no-repeat;
+    }
+    #container .details img{
+        width: 30px;
+    vertical-align: middle;}
+    #container  .details li{
+        list-style: none;
+        margin-left: -50px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+#footer{
+background-color:#353330;
+text-align: center;
+padding-top: 50px;
+}
+#footer img{
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+#footer p{
+   font-size: 15px;
+   color: #777777;
+    padding-bottom: 20px;
+}
+#footer ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ #footer ul li a{
+   text-decoration: none;
+ }
+
+ #footer ul li a img{
+    width: 40px;
+    background-color: #484540;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding-bottom: 0px;
+  }
